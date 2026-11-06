@@ -21,7 +21,7 @@ st.caption("基于 DeepSeek 打造，手机电脑均可访问")
 
 # ================= 2. 配置 API =================
 # ⚠️ 把下面的 API_KEY 换成你自己的真实密钥
-API_KEY = API_KEY = st.secrets["DEEPSEEK_KEY"]
+API_KEY =st.secrets["DEEPSEEK_KEY"]
 BASE_URL = "https://api.deepseek.com"
 MODEL_NAME = "deepseek-flash"
 
