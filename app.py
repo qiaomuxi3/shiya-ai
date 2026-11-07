@@ -7,7 +7,7 @@ from duckduckgo_search import DDGS
 
 # ================= 1. 页面设置 =================
 st.set_page_config(page_title="诗娅 - 我的情感 AI", page_icon="💖", layout="centered")
-st.title("💖 诗娅 - 我的情感专属 AI")
+st.title("💖 诗娅 - my的情感专属 AI")
 st.caption("基于 DeepSeek 打造，手机电脑均可访问")
 
 # ================= 2. 配置 API =================
