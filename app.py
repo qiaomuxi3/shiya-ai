@@ -112,6 +112,7 @@ if user_input := st.chat_input("在这里输入你想说的话..."):
             # 显示 AI 回复并保存到历史记录
             st.markdown(ai_reply)
             st.session_state.messages.append({"role": "assistant", "content": ai_reply})
+            
 
             # 触发保存到本地硬盘
             save_history()
