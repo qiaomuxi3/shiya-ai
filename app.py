@@ -115,5 +115,4 @@ if user_input := st.chat_input("在这里输入你想说的话..."):
 
             # 触发保存到本地硬盘
             save_history()
-
-
+            #强制重启
